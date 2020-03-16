@@ -15,6 +15,7 @@ namespace ConsoleApp1
         private static void ShowMenu()
         {
             Console.Clear();
+            Console.WriteLine("Choose an option you would like: ");
             Console.WriteLine("Press 1 for ADDITION");
             Console.WriteLine("Press 2 for SUBTRACTION");
             Console.WriteLine("Press 3 to MULTIPY");
@@ -67,25 +68,25 @@ namespace ConsoleApp1
         private static void Add(int x, int y)
         {
             int sum = x + y;
-            Console.WriteLine("Awesome! " + x + " + " + y + " = " + sum);
+            Console.WriteLine($"Awesome! {x} + {y} = {sum}");
         }
 
         private static void Sub(int x, int y)
         {
             int sub = x - y;
-            Console.WriteLine("Awesome! " + x + " - " + y + " = " + sub);
+            Console.WriteLine($"Awesome! {x} - {y} = {sub}");
         }
 
         private static void Multiply(int x, int y)
         {
             int mulitply = x * y;
-            Console.WriteLine("Awesome! " + x + " * " + y + " = " + mulitply);
+            Console.WriteLine($"Awesome! {x} * {y} = {mulitply}");
         }
 
         private static void Divide(int x, int y)
         {
             int divide = x/y;
-            Console.WriteLine("Awesome! " + x + " % " + y + " = " + divide);
+            Console.WriteLine($"Awesome! {x} % {y} = {divide}");
         }
     }
 }
