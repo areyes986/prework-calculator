@@ -26,6 +26,7 @@ namespace ConsoleApp1
             Console.Clear();
             Console.Write("first value: ");
             int x = int.Parse(Console.ReadLine());
+       
             Console.Write("second value: ");
             int y = int.Parse(Console.ReadLine());
 
