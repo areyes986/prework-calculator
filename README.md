@@ -5,5 +5,8 @@
 ![Menu](menu.png)
 This is the menu where users can choose their options.
 
-![Addition sample](addition.png)
-This is the result after user enters their first and second value. This is a sample for addition. The other options look similar however they will either subtract, multiply, or divide. 
+![Addition sample](first-value.png)
+The user is prompted to enter their first value. 
+
+![Addition sample](result.png)
+User then enters their second value and the console displays the solution. The user is also asked if they would like to try again. If yes, they will reroute to the menu. If no, the system will exit.
